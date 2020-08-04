@@ -16,7 +16,7 @@ document.querySelectorAll(".number-button").forEach(el => {
 document.querySelector(".clear-button").addEventListener("click", function () {
     const submitInputPin = document.getElementById('submit-input').value;
     document.getElementById('submit-input').value = "";
-})
+});
 
 //Backspace
 document.querySelector('.delete-button').addEventListener('click', function () {
